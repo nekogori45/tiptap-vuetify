@@ -122,7 +122,12 @@ export default {
       window: {
         title: '画像を追加する',
         form: {
-          sourceLink: '画像URL'
+          sourceLink: '画像URL',
+          altText: '代替テキスト',
+          addImage: '画像を追加する'
+        },
+        imageUpload: {
+          instruction: 'ファイル（複数可）を選択して、ここにドラッグして下さい'
         },
         buttons: {
           close: '閉じる',
